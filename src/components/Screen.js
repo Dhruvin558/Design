@@ -2,6 +2,8 @@ import React from "react";
 import Button from '@mui/material/Button';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import TextField from '@mui/material/TextField';
+import PhoneOutlined from '@ant-design/icons';
+import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
 
 const Screen = () => {
   return (
@@ -172,38 +174,39 @@ const Screen = () => {
           </p>
         </p>
         <p className="ab">
-          <p>
-            <h5>Company Info </h5>
-            <p>About us  </p>
-            <p>Carrier </p>
-            <p>We are hiring   </p>
-            <p> Blog</p>
-          </p>
           <p className="ap1">
-            <h5>Legal</h5>
-            <p>About us  </p>
-            <p>Carrier </p>
-            <p>We are hiring   </p>
-            <p> Blog</p>
+            <h5>Company Info </h5>
+            <p className="ppp">About us  </p>
+            <p className="ppp">Carrier </p>
+            <p className="ppp">We are hiring   </p>
+            <p className="ppp"> Blog</p>
           </p>
           <p className="ap2">
-            <h5>Features</h5>
-            <p>Business Marketing</p>
-            <p>user Analytic</p>
-            <p>Live Chat</p>
-            <p>Unlimited Support</p>
+            <h5>Legal</h5>
+            <p className="ppp">About us  </p>
+            <p className="ppp">Carrier </p>
+            <p className="ppp">We are hiring   </p>
+            <p className="ppp"> Blog</p>
           </p>
           <p className="ap3">
+            <h5>Features</h5>
+            <p className="ppp">Business Marketing</p>
+            <p className="ppp">user Analytic</p>
+            <p className="ppp">Live Chat</p>
+            <p className="ppp">Unlimited Support</p>
+          </p>
+          <p className="ap4">
             <h5>Resources</h5>
-            <p>IOS & Android</p>
-            <p>Watch a Demo</p>
-            <p>Customers</p>
-            <p>API</p>
+            <p className="ppp">IOS & Android</p>
+            <p className="ppp">Watch a Demo</p>
+            <p className="ppp">Customers</p>
+            <p className="ppp">API</p>
           </p>
-          <p>
+          <p className="ap5">
             <h5>Get In Touch</h5>
+            <img src="/image/div.png" alt="phone" className="ai1" />
           </p>
-
+          <img src="/image/div 4.png" alt="phone" className="last" />
 
 
 
