@@ -10,6 +10,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const Navbar = () => {
   return (
     <div >
+      <p className="nbarbg">
       <p className=" sp1" >
         <Link className="nf">Brandname</Link>
         <Link to="/" className="nbar">Home</Link>
@@ -29,7 +30,7 @@ const Navbar = () => {
           size="larg"
           endIcon={<ArrowForwardIcon />}  >JOIN US </Button>
       </p>
-
+</p>
     </div>
   )
 }

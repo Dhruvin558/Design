@@ -46,6 +46,39 @@
   height: 750px;
   width: 100%;
 }
+.nbarbg{
+  position: relative;
+  top: -14px;
+  left: 0px;
+  background-color: rgb(255, 242, 243);
+  width: 1545px;
+  height: 106px;
+}
+  .bgbox{position: relative;
+  top: -41px;
+  left: 0px;
+  background-color: rgb(255, 242, 243);
+  width: 1645px;
+  height: 740px;
+
+  @media (min-width: 1200px){
+    left: -100px;
+    
+  }
+}
+.s4bg{
+  position: relative;
+  width: 1408px;
+  height: 684px;
+}
+.fsc{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color:rgb(255, 255, 255);
+  width: 1545px;
+  height: 106px;
+}
 
 .sp1 {
   position: relative;
@@ -106,7 +139,7 @@
 
 .p1 {
   position: relative;
-  left: 221px;
+  left: 211px;
   top: 130px;
 
   color: rgb(150, 187, 124);
@@ -116,7 +149,7 @@
 .p2 {
   position: relative;
   color: rgb(37, 43, 66);
-  left: 221px;
+  left: 209px;
   top: 121px;
   font-weight: 700;
   font-size: 58px;
@@ -125,7 +158,7 @@
 .p3 {
   position: relative;
   color: rgb(115, 115, 115);
-  left: 221px;
+  left: 211px;
   top: 110px;
   width: 400;
   size: 20px;
@@ -134,7 +167,7 @@
 
 .pb1 {
   position: relative;
-  left: 221px;
+  left: 211px;
   top: 120px;
 }
 
@@ -450,6 +483,10 @@
   height: 44px;
   padding: 10px, 20px, 10px, 20px;
   border-radius: 37px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(156, 195, 129);
+  font-weight: 700;
+  border-color: rgb(156, 195, 129);
 
 }
 
@@ -463,7 +500,7 @@
 
 .s4i7 {
   position: relative;
-  top: -1146px;
+  top: -956px;
   left: 834px;
   width: 209px;
   height: 402px;
@@ -472,7 +509,7 @@
 
 .s4p7 {
   position: relative;
-  top: -1538px;
+  top: -1348px;
   left: 1100px;
   color: rgb(150, 187, 124);
   font-weight: 700;
@@ -480,7 +517,7 @@
 
 .s4i8 {
   position: relative;
-  top: -1580px;
+  top: -1390px;
   left: 1242px;
   width: 50px;
   height: 26px;
@@ -489,7 +526,7 @@
 
 .s4p8 {
   position: relative;
-  top: -1587px;
+  top: -1390px;
   left: 1100px;
   font-size: 16px;
   font-weight: 700;
@@ -498,7 +535,7 @@
 
 .s4p9 {
   position: relative;
-  top: -1597px;
+  top: -1390px;
   left: 1100px;
   font-size: 14px;
   font-weight: 550;
@@ -508,7 +545,7 @@
 
 .s4i10 {
   position: relative;
-  top: -1598px;
+  top: -1409px;
   left: 1100px;
   width: 83px;
   height: 24px;
@@ -516,7 +553,7 @@
 
 .s4i11 {
   position: relative;
-  top: -1553px;
+  top: -1360px;
   left: 1013px;
   width: 108px;
   height: 34px;
@@ -524,7 +561,7 @@
 
 .s4i12 {
   position: relative;
-  top: -1508px;
+  top: -1320px;
   left: 908px;
   width: 242px;
   height: 46px;
@@ -532,11 +569,17 @@
 
 .s4i13 {
   position: relative;
-  top: -1449px;
+  top: -1260px;
   left: 672px;
+  height: 44px;
+  width: 141.14px;
   height: 44px;
   padding: 10px, 20px, 10px, 20px;
   border-radius: 37px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(156, 195, 129);
+  font-weight: 700;
+  border-color: rgb(156, 195, 129);
 }
 
 .s5p1 {
@@ -783,7 +826,7 @@
 }
 .last{
   position: relative;
-  top: -596px;
+  top:-596px;
   width: 1536px;
   height: 74px;
 }

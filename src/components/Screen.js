@@ -2,12 +2,13 @@ import React from "react";
 import Button from '@mui/material/Button';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import TextField from '@mui/material/TextField';
-import PhoneOutlined from '@ant-design/icons';
-import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
+// import PhoneOutlined from '@ant-design/icons';
+// import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
 
 const Screen = () => {
   return (
-    <div className="bg">
+    <div className="">
+      <p className="bgbox">
       <h5 className="p1">
         Welcome
       </h5>
@@ -27,7 +28,7 @@ const Screen = () => {
             backgroundColor: 'rgb(130, 167, 104)',
           },
           fontFamily: 'Arial'
-
+          
         }} variant="contained"
           size="larg" >JOIN US </Button>
         {" "}
@@ -41,9 +42,11 @@ const Screen = () => {
       <p >
         <img src="/image/hero-cover-1.png" alt="hero" className="pic1 "></img>
       </p>
+      </p>
       {/* ----------------------------------------------------------------------------------------------------------------------- */}
 
 
+          <p className="fsc"></p>
       <p >
         <img src="/image/fixed-width fixed-height sec-.png" alt='red line' className="s2i"></img>
       </p>
@@ -95,7 +98,7 @@ const Screen = () => {
 
       {/* ----------------------------------------------------------------------------------------------------------------------- */}
       <p>
-        <p>
+        <p className="s4bg">
 
           <h6 className="s4p1">Practice Advice</h6>
           <h2 className="s4p2">Approdable Packages</h2>
@@ -110,7 +113,8 @@ const Screen = () => {
             <img src="/image/sales sec-.png" alt="img" className="s4i2" />
             <img src="/image/prices sec-.png" alt="img" className="s4i3" />
             <img src="/image/Frame 1 sec-.png" alt="img" className="s4i4" />
-            <img src="/image/button Sm sec-.png" alt="img" className="s4i5" />
+            {/* <img src="/image/button Sm sec-.png" alt="img" className="s4i5" /> */}
+            <button className="s4i5">Learn More ></button>
           </p>
         </p>
         <img src="/image/fixed-width 2.png" alt="img" className="s4i7" />
@@ -123,7 +127,8 @@ const Screen = () => {
         <img src="/image/prices sec-.png" alt="img" className="s4i11" />
         <img src="/image/Frame 1 sec-.png" alt="img" className="s4i12" />
 
-        <img src="/image/button Sm sec-.png" alt="img" className="s4i13" />
+        {/* <img src="/image/button Sm sec-.png" alt="img" className="s4i13" /> */}
+        <button className="s4i13">Learn More ></button>
       </p>
 
 
